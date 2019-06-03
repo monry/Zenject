@@ -1,14 +1,19 @@
 {
     "name": "Zenject-IntegrationTests-Editor",
     "references": [
-        "Zenject-TestFramework",
-        "Zenject",
-        "Zenject-IntegrationTests"
+        "GUID:a2f2239355369ba4fb6909aeaa41def5",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:2845024868d5894408e3dc7b917ca748"
     ],
     "optionalUnityReferences": [
         "TestAssemblies"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
-    "allowUnsafeCode": false
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
 }
