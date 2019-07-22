@@ -10,7 +10,7 @@
     ],
     "category": "",
     "dependencies": {
-        "jp.co.cysharp.unirx": "6.0.0"
+        "jp.cysharp.unirx": "7.1.0"
     },
     "files": [
         "package.json",

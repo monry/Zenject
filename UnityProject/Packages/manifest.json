@@ -4,14 +4,14 @@
       "name": "Unofficial Unity Package Manager Registry",
       "url": "https://upm-packages.dev",
       "scopes": [
-        "jp.co.cysharp"
+        "jp.cysharp"
       ]
     }
   ],
   "dependencies": {
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.package-manager-ui": "2.1.2",
-    "jp.co.cysharp.unirx": "6.2.2",
+    "jp.cysharp.unirx": "7.1.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.assetbundle": "1.0.0",
