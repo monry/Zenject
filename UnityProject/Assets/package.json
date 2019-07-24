@@ -24,10 +24,7 @@
         "email": "sfvermeulen@gmail.com",
         "url": "http://www.stevevermeulen.com/"
     },
-    "license": {
-        "type": "MIT",
-        "url": "https://github.com/svermeulen/Extenject/blob/master/License.md"
-    },
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/svermeulen/Extenject"
