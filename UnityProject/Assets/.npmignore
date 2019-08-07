@@ -1,0 +1,4 @@
+.npmignore
+yarn-error*.log*
+SampleBuilder
+SampleBuilder.meta
