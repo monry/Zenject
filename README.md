@@ -1,15 +1,27 @@
 
-# Extenject - Extensions and bug fixes to Zenject
+# Extenject
 
-This project is simply a fork of <a href="https://github.com/modesttree/zenject">Zenject</a> with the goal of being actively maintained.  I am the primary author and was the primary maintainer until my access was removed after leaving my position at Modest Tree.  It is called Extenject to respect Modest Tree's <a href="https://github.com/modesttree/Zenject/commit/2cbbf11b344d083cc697d8b248acf41520d72da3">trademark claim</a> on the name Zenject.
+## Extensions and bug fixes to Zenject
 
 [![Join the chat at https://gitter.im/Extenject/community](https://badges.gitter.im/Extenject/Lobby.svg)](https://gitter.im/Extenject/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+This project is simply a fork of <a href="https://github.com/modesttree/zenject">Zenject</a> with the goal of being actively maintained.  I am the primary author and was the primary maintainer until my access was removed after leaving my position at the company Modest Tree.  It is called Extenject to respect Modest Tree's <a href="https://github.com/modesttree/Zenject/commit/2cbbf11b344d083cc697d8b248acf41520d72da3">trademark claim</a> on the name Zenject.
+
+## Lawsuit
+
+Extenject has been removed from Asset Store because of a copyright claim by Modest Tree, so the only way to obtain it currently is through the [releases section on github](https://github.com/svermeulen/Extenject/releases).  Modest Tree has also blocked me from contributing to zenject github issues and removed me from the zenject gitter chat, so to get my help please report issues [to extenject](https://github.com/svermeulen/Extenject/issues/new), and discuss in the [extenject chat](https://gitter.im/Extenject/community) instead
+
+They have also filed a lawsuit against me and Unity tells me that they will not re-enable Extenject in the Asset Store until the lawsuit is complete, which might not occur until 2020.
+
+I have been advised not to comment on details of the lawsuit right now - however you can read [their filing](https://drive.google.com/open?id=1pVVCuwsJfhQ-jj2cIe5oF6zNwHITCHbF) and [my defense](https://drive.google.com/open?id=1CYy2g46b2XiDoIsWb75SgLJoIGakGiyz) (both of which are public) for details if interested.  The lawsuit also relates to other MIT license open source projects I created such as [Projeny](https://github.com/modesttree/Projeny) and [Unity3dAsyncAwaitUtil](https://github.com/modesttree/Unity3dAsyncAwaitUtil)
+
+## Support
+
 This project is supported via donations.  If you or your team have found it useful, please consider supporting further development through <a href="https://www.patreon.com/extenject">patreon</a> or <a href="https://paypal.me/stevevermeulen">paypal</a>
 
-If you are looking for the older documentation for Zenject you can find that here:  <a href="https://github.com/svermeulen/Extenject/tree/f0dd30ad451dcbc3eb17e636455a6c89b14ad537">Zenject 3.x</a>, <a href="https://github.com/svermeulen/Extenject/tree/0b4a15b1e6e680c94fd34a2d7420eb41e320b21b">Zenject 4.x</a>, <a href="https://github.com/svermeulen/Extenject/tree/dc019e31dbae09eb53c1638be00f7f002898956c">Zenject 5.x</a>
-
 ## <a id="introduction"></a>Introduction
+
+Note that if you are looking for the older documentation for Zenject you can find that here:  <a href="https://github.com/svermeulen/Extenject/tree/f0dd30ad451dcbc3eb17e636455a6c89b14ad537">Zenject 3.x</a>, <a href="https://github.com/svermeulen/Extenject/tree/0b4a15b1e6e680c94fd34a2d7420eb41e320b21b">Zenject 4.x</a>, <a href="https://github.com/svermeulen/Extenject/tree/dc019e31dbae09eb53c1638be00f7f002898956c">Zenject 5.x</a>
 
 Zenject is a lightweight highly performant dependency injection framework built specifically to target Unity 3D (however it can be used outside of Unity as well).  It can be used to turn your application into a collection of loosely-coupled parts with highly segmented responsibilities.  Zenject can then glue the parts together in many different configurations to allow you to easily write, re-use, refactor and test your code in a scalable and extremely flexible way.
 
@@ -27,7 +39,7 @@ This project is open source.
 
 For general troubleshooting / support, please post to [stack overflow](https://stackoverflow.com/questions/ask) using the tag 'zenject', or post in the [zenject google group](https://groups.google.com/forum/#!forum/zenject/)
 
-Or, if you have found a bug, you are also welcome to create an issue on the [github page](https://github.com/svermeulen/Extenject), or a pull request if you have a fix / extension.  There is also a [gitter chat](https://gitter.im/Extenject/community) that you can join for real time discussion.  Finally, you can also email me directly at sfvermeulen@gmail.com
+Or, if you have found a bug, you are also welcome to create an issue on the [github page](https://github.com/svermeulen/Extenject), or a pull request if you have a fix / extension.  There is also a [gitter chat](https://gitter.im/Extenject/community) that you can join for real time discussion.  Finally, you can also email me directly at sfvermeulen@gmail.com or follow me on twitter at [@steve_verm](https://twitter.com/steve_verm)
 
 ## <a id="features"></a>Features
 
@@ -3316,7 +3328,7 @@ See <a href="Documentation/CheatSheet.md">here</a>.
 
 ## <a id="further-help"></a>Further Help
 
-For general troubleshooting / support, please use the [zenject subreddit](http://www.reddit.com/r/zenject) or the [zenject google group](https://groups.google.com/forum/#!forum/zenject/).  If you have found a bug, you are also welcome to create an issue on the [github page](https://github.com/svermeulen/Extenject), or a pull request if you have a fix / extension.  You can also follow [@Zenject](https://twitter.com/Zenject) on twitter for updates.  Finally, you can also email me directly at sfvermeulen@gmail.com
+For general troubleshooting / support, please use the [zenject subreddit](http://www.reddit.com/r/zenject) or the [zenject google group](https://groups.google.com/forum/#!forum/zenject/).  If you have found a bug, you are also welcome to create an issue on the [github page](https://github.com/svermeulen/Extenject), or a pull request if you have a fix / extension.  Finally, you can also email me directly at sfvermeulen@gmail.com or follow me on twitter at [@steve_verm](https://twitter.com/steve_verm)
 
 ## <a id="release-notes"></a>Release Notes
 
