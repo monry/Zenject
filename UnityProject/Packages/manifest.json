@@ -4,7 +4,8 @@
       "name": "Unofficial Unity Package Manager Registry",
       "url": "https://upm-packages.dev",
       "scopes": [
-        "jp.cysharp"
+        "jp.cysharp",
+        "dev.upm-packages"
       ]
     }
   ],
@@ -48,6 +49,8 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "dev.upm-packages.moq": "4.13.1-2",
+    "dev.upm-packages.nsubstitute": "2.0.3-2"
   }
 }
