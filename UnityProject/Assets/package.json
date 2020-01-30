@@ -12,7 +12,7 @@
   "dependencies": {
     "jp.cysharp.unirx": "7.1.0",
     "dev.upm-packages.moq": "4.13.1-2",
-    "dev.upm-packages.nsubstitute": "2.0.3-1"
+    "dev.upm-packages.nsubstitute": "2.0.3-2"
   },
   "files": [
     "package.json",
