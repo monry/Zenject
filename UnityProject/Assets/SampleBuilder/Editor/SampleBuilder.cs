@@ -29,9 +29,7 @@ namespace Zenject.Internal
         //[MenuItem("ZenjectSamples/Enable Net 46")]
         static void EnableNet46()
         {
-#if !UNITY_2019_3_OR_NEWER
             PlayerSettings.scriptingRuntimeVersion = ScriptingRuntimeVersion.Latest;
-#endif
             PlayerSettings.SetApiCompatibilityLevel(EditorUserBuildSettings.selectedBuildTargetGroup, ApiCompatibilityLevel.NET_4_6);
             EditorApplication.Exit(0);
         }
@@ -39,9 +37,7 @@ namespace Zenject.Internal
         //[MenuItem("ZenjectSamples/Enable Net 35")]
         static void EnableNet35()
         {
-#if !UNITY_2019_3_OR_NEWER
             PlayerSettings.scriptingRuntimeVersion = ScriptingRuntimeVersion.Legacy;
-#endif
             PlayerSettings.SetApiCompatibilityLevel(EditorUserBuildSettings.selectedBuildTargetGroup, ApiCompatibilityLevel.NET_2_0_Subset);
             EditorApplication.Exit(0);
         }
@@ -65,7 +61,7 @@ namespace Zenject.Internal
 
             switch (EditorUserBuildSettings.activeBuildTarget)
             {
-                case BuildTarget.StandaloneOSX:
+                case BuildTarget.StandaloneOSX: 
                 {
                     BuildGeneric(
                         "OsX/{0}/ZenjectSamples".Fmt(GetScriptingRuntimeString()), scenePaths, isRelease);
@@ -121,16 +117,12 @@ namespace Zenject.Internal
 
         static string GetScriptingRuntimeString()
         {
-#if UNITY_2019_3_OR_NEWER
-            return "Net46";
-#else
             if (PlayerSettings.scriptingRuntimeVersion == ScriptingRuntimeVersion.Latest)
             {
                 return "Net46";
             }
 
             return "Net35";
-#endif
         }
 
         static bool BuildGeneric(
