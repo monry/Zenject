@@ -10,7 +10,6 @@
   ],
   "category": "",
   "dependencies": {
-    "jp.cysharp.unirx": "7.1.0",
     "dev.upm-packages.moq": "4.13.3",
     "dev.upm-packages.nsubstitute": "2.0.4"
   },
